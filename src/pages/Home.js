@@ -5,7 +5,7 @@ import { Container } from 'reactstrap'
 
 function Home() {
     return (
-        <Container className="container">
+        <Container className="m-auto">
             <h1>Nike Air Max</h1>
             <div className="gallery">
 

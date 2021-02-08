@@ -9,10 +9,10 @@ export const ArticleDetail = ({ single }) => {
 
   return (
     <>
-      <Container className="container m-auto">
+      <Container className="m-auto">
         <Row className="row">
           <Col className="detail">
-            <Link className="detailLink" target="_blank"  to={`../${single.image}`} style={{ 'display': 'block' }}>
+            <Link className="detailLink" target="_blank" key={id} to={`../${single.image}`} style={{ 'display': 'block' }}>
               <img className="detailImg" src={`/image/img${(single.id) + 1}.jpg`} alt='hi'></img>
             </Link>
 

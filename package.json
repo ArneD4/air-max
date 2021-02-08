@@ -1,6 +1,5 @@
 {
-  "homepage": "http://arned4.github.io/nikeairmax",
-  "name": "routingex",
+  "name": "airmax",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
